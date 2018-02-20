@@ -12,4 +12,9 @@ class Author
   def song_count
     @@song_count
   end
+
+  def add_post(song)
+    @songs << song
+    song.artist = self
+  end
 end
