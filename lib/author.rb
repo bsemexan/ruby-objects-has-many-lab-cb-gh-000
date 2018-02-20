@@ -9,6 +9,10 @@ class Author
     @posts = []
   end
 
+  def posts
+    @posts
+  end
+
   def song_count
     @@song_count
   end
@@ -22,9 +26,5 @@ class Author
     post = Post.new(title)
     @posts << post
     post.title = self
-  end
-
-  def posts
-    @posts
   end
 end
