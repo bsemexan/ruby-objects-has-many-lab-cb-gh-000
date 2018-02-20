@@ -23,4 +23,8 @@ class Author
     @posts << post
     post.title = self
   end
+
+  def posts
+    @songs
+  end
 end
