@@ -25,6 +25,6 @@ class Author
   end
 
   def posts
-    @songs
+    @posts
   end
 end
